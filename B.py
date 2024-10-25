@@ -3,7 +3,7 @@ for _ in range(int(input())):
     for i in range(y):
         for j in range(x // 3):
             if n > 0:
-                for l in range(3):
+                for k in range(3):
                     print(n, end=' ')
                 n -= 1
             else:
